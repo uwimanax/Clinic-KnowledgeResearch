@@ -1,0 +1,15 @@
+BabyCare AI local document drop folder
+=====================================
+
+Place additional pediatric guidelines here as PDF, HTML, or TXT files.
+
+Then add one row per file to docs/manifest.csv:
+filename,title,organization,date,category,notes
+
+Rules:
+- Use only documents you are permitted to store and process locally.
+- Do not add documents containing identifiable patient information.
+- The app indexes only documents recorded in this manifest or data/sources.csv.
+- References shown in reports come only from indexed chunks.
+- A missing document is never treated as evidence of normal findings.
+- Hand-compiled graph and investigation entries require clinician validation.

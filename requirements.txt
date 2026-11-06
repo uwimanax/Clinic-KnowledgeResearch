@@ -1,0 +1,23 @@
+# Requires Python 3.10 or newer.
+# Install with: python -m pip install -r requirements.txt
+# Run the app with: python -m streamlit run app.py
+
+# Streamlit app and document retrieval/indexing
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+requests>=2.31
+pypdf>=4.0
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# Optional Claude integration (only used when ANTHROPIC_API_KEY is configured)
+anthropic>=0.40
+
+# Jupyter notebook environment
+jupyterlab>=4.0
+ipython>=8.0
+nbformat>=5.9
+nbclient>=0.8
+ipykernel>=6.0
